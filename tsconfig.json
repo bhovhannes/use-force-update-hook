@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "lib": ["es6", "dom"],
+    "module": "es6",
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "strict": true,
+    "target": "es5",
+    "jsx": "react"
+  },
+  "compileOnSave": false,
+  "buildOnSave": false,
+  "include": ["./src/**/*.ts"],
+  "exclude": ["node_modules", "coverage", "dist", "./src/**/*.spec.ts"]
+}

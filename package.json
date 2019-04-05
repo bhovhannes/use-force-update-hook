@@ -1,0 +1,59 @@
+{
+  "name": "use-force-update-hook",
+  "version": "0.0.0",
+  "description": "React hook which gives forceUpdate() to functional components.",
+  "main": "dist/use-force-update.cjs.js",
+  "module": "dist/use-force-update.esm.js",
+  "files": [
+    "dist",
+    "typings"
+  ],
+  "types": "./typings/index.d.ts",
+  "scripts": {
+    "build": "run-p build:*",
+    "build:bundles": "rollup --config rollup.config.js",
+    "build:typings": "tsc --declaration --emitDeclarationOnly --noEmitOnError --declarationDir typings",
+    "prettier": "prettier --write \"**/*.{ts,tsx,js,jsx,css,md,yml}\"",
+    "test:typecheck": "tsc --noEmit",
+    "test:sources": "jest --coverage",
+    "test:sources:watch": "jest --watch",
+    "test": "run-p test:*",
+    "coverage": "cat coverage/*/lcov.info | codecov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhovhannes/use-force-update.git"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "forceUpdate"
+  ],
+  "author": "Hovhannes Babayan <bhovhannes@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bhovhannes/use-force-update/issues"
+  },
+  "homepage": "https://github.com/bhovhannes/use-force-update#readme",
+  "devDependencies": {
+    "@commitlint/cli": "7.5.2",
+    "@commitlint/config-conventional": "7.5.0",
+    "@types/jest": "24.0.11",
+    "codecov": "3.3.0",
+    "husky": "1.3.1",
+    "jest": "24.7.1",
+    "lint-staged": "8.1.5",
+    "npm-run-all": "4.1.5",
+    "prettier": "1.16.4",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-testing-library": "6.1.2",
+    "rollup": "1.7.4",
+    "rollup-plugin-typescript": "1.0.1",
+    "ts-jest": "24.0.1",
+    "typescript": "3.4.1"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0"
+  }
+}
