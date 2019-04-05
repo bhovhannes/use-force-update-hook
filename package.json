@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bhovhannes/use-force-update.git"
+    "url": "git+https://github.com/bhovhannes/use-force-update-hook.git"
   },
   "keywords": [
     "react",
@@ -32,9 +32,9 @@
   "author": "Hovhannes Babayan <bhovhannes@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bhovhannes/use-force-update/issues"
+    "url": "https://github.com/bhovhannes/use-force-update-hook/issues"
   },
-  "homepage": "https://github.com/bhovhannes/use-force-update#readme",
+  "homepage": "https://github.com/bhovhannes/use-force-update-hook#readme",
   "devDependencies": {
     "@commitlint/cli": "7.5.2",
     "@commitlint/config-conventional": "7.5.0",
