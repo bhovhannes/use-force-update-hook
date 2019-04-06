@@ -136,4 +136,26 @@ describe('useForceUpdateWithCallback hook', function() {
 
     expect(cb).toHaveBeenCalledTimes(0)
   })
+
+  it('should not execute callback if render was not triggered by forceUpdate call', function() {
+    const cb1 = jest.fn()
+    const cb2 = jest.fn()
+
+    function Component() {
+      const [value, setValue] = React.useState(false)
+      useForceUpdateWithCallback(value ? cb1 : cb2)
+      return (
+        <button data-testid="btn" onClick={() => setValue(v => !v)}>
+          Click me
+        </button>
+      )
+    }
+
+    const { getByTestId } = render(<Component />)
+
+    fireEvent.click(getByTestId('btn'))
+    fireEvent.click(getByTestId('btn'))
+    expect(cb1).toHaveBeenCalledTimes(0)
+    expect(cb2).toHaveBeenCalledTimes(0)
+  })
 })

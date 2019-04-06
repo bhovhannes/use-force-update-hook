@@ -7,15 +7,15 @@ export function useForceUpdate(): () => () => void {
 
 export function useForceUpdateWithCallback(cb: () => void): () => () => void {
   const [value, setValue] = useState(0)
-  const isFirstCall = useRef(true)
-  const forceUpdate = () => {
-    setValue(v => ~v)
-  }
+  const isUpdating = useRef(0)
   useLayoutEffect(() => {
-    if (!isFirstCall.current) {
+    if (isUpdating.current) {
+      isUpdating.current = 0
       cb()
     }
-    isFirstCall.current = false
-  }, [value, cb])
-  return useRef(forceUpdate).current
+  }, [cb, value])
+  return useRef(() => {
+    isUpdating.current = 1
+    setValue(v => ~v)
+  }).current
 }
