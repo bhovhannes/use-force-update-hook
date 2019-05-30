@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { render, fireEvent, cleanup } from 'react-testing-library'
+import { render, fireEvent, cleanup } from '@testing-library/react'
 import { useForceUpdate, useForceUpdateWithCallback } from './index'
 
 describe('useForceUpdate hook', function() {
