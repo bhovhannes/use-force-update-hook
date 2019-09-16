@@ -1,11 +1,11 @@
 import { useRef, useState, useLayoutEffect } from 'react'
 
-export function useForceUpdate(): () => () => void {
+export function useForceUpdate(): () => void {
   const setValue = useState(0)[1]
   return useRef(() => setValue(v => ~v)).current
 }
 
-export function useForceUpdateWithCallback(cb: () => void): () => () => void {
+export function useForceUpdateWithCallback(cb: () => void): () => void {
   const [value, setValue] = useState(0)
   const isUpdating = useRef(0)
   useLayoutEffect(() => {
