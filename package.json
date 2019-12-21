@@ -51,7 +51,7 @@
     "rollup": "1.27.13",
     "rollup-plugin-typescript": "1.0.1",
     "ts-jest": "24.2.0",
-    "typescript": "3.7.3"
+    "typescript": "3.7.4"
   },
   "peerDependencies": {
     "react": "^16.8.0"
