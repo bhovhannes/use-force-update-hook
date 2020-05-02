@@ -48,7 +48,7 @@
     "prettier": "2.0.5",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "rollup": "2.7.2",
+    "rollup": "2.7.6",
     "rollup-plugin-typescript": "1.0.1",
     "ts-jest": "25.4.0",
     "typescript": "3.8.3"
