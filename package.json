@@ -50,7 +50,7 @@
     "react-dom": "16.13.1",
     "rollup": "2.23.1",
     "rollup-plugin-typescript": "1.0.1",
-    "ts-jest": "26.1.4",
+    "ts-jest": "26.2.0",
     "typescript": "3.9.7"
   },
   "peerDependencies": {
