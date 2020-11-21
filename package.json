@@ -38,7 +38,7 @@
   "devDependencies": {
     "@commitlint/cli": "11.0.0",
     "@commitlint/config-conventional": "11.0.0",
-    "@testing-library/react": "11.1.2",
+    "@testing-library/react": "11.2.2",
     "@types/jest": "26.0.15",
     "codecov": "3.8.1",
     "husky": "4.3.0",
