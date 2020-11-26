@@ -17,8 +17,7 @@
     "test:typecheck": "tsc --noEmit",
     "test:sources": "jest --coverage",
     "test:sources:watch": "jest --watch",
-    "test": "run-p test:*",
-    "coverage": "cat coverage/*/lcov.info | codecov"
+    "test": "run-p test:*"
   },
   "repository": {
     "type": "git",
@@ -40,7 +39,6 @@
     "@commitlint/config-conventional": "11.0.0",
     "@testing-library/react": "11.2.2",
     "@types/jest": "26.0.15",
-    "codecov": "3.8.1",
     "husky": "4.3.0",
     "jest": "26.6.3",
     "lint-staged": "10.5.1",
