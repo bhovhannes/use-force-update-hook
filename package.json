@@ -1,6 +1,6 @@
 {
   "name": "use-force-update-hook",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "React hook which gives forceUpdate() to functional components.",
   "main": "dist/use-force-update.cjs.js",
   "module": "dist/use-force-update.esm.js",
