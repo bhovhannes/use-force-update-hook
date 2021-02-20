@@ -1,6 +1,1 @@
-module.exports = {
-  printWidth: 100,
-  semi: false,
-  singleQuote: true,
-  tabWidth: 2
-}
+module.exports = require('@bhovhannes/shared-config/prettier')
