@@ -39,7 +39,7 @@
     "@bhovhannes/shared-config": "0.0.1",
     "@commitlint/cli": "13.1.0",
     "@commitlint/config-conventional": "13.1.0",
-    "@rollup/plugin-typescript": "8.2.3",
+    "@rollup/plugin-typescript": "8.2.5",
     "@testing-library/react": "12.0.0",
     "@types/jest": "26.0.24",
     "jest": "27.0.6",
