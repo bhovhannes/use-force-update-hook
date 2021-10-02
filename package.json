@@ -37,8 +37,8 @@
   "devDependencies": {
     "@arkweid/lefthook": "0.7.6",
     "@bhovhannes/shared-config": "0.0.1",
-    "@commitlint/cli": "13.1.0",
-    "@commitlint/config-conventional": "13.1.0",
+    "@commitlint/cli": "13.2.0",
+    "@commitlint/config-conventional": "13.2.0",
     "@rollup/plugin-typescript": "8.2.5",
     "@testing-library/react": "12.1.1",
     "@types/jest": "27.0.2",
