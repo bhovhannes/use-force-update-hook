@@ -37,8 +37,8 @@
   "devDependencies": {
     "@evilmartians/lefthook": "1.2.2",
     "@bhovhannes/shared-config": "0.0.1",
-    "@commitlint/cli": "17.2.0",
-    "@commitlint/config-conventional": "17.2.0",
+    "@commitlint/cli": "17.3.0",
+    "@commitlint/config-conventional": "17.3.0",
     "@rollup/plugin-typescript": "9.0.2",
     "@testing-library/react": "13.4.0",
     "@types/jest": "29.2.3",
