@@ -40,7 +40,7 @@
     "@commitlint/cli": "17.4.4",
     "@commitlint/config-conventional": "17.4.4",
     "@rollup/plugin-typescript": "11.0.0",
-    "@testing-library/react": "13.4.0",
+    "@testing-library/react": "14.0.0",
     "@types/jest": "29.4.0",
     "jest": "29.4.3",
     "jest-environment-jsdom": "29.4.3",
