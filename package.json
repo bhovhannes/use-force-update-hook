@@ -11,7 +11,7 @@
   "types": "./typings/index.d.ts",
   "scripts": {
     "build": "npm run build:bundles && npm run build:typings",
-    "build:bundles": "rollup --config rollup.config.js",
+    "build:bundles": "rollup --config rollup.config.mjs",
     "build:typings": "tsc --declaration --emitDeclarationOnly --noEmitOnError --declarationDir typings",
     "prettier": "prettier --write \"**/*.{ts,tsx,js,jsx,css,md,yml}\"",
     "test:typecheck": "tsc --noEmit",
