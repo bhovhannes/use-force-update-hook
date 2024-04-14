@@ -13,7 +13,7 @@ jobs:
       - run: npm ci
       - run: npm run build:bundles
       - run: npm run test:sources -- --ci
-      - uses: codecov/codecov-action@v3
+      - uses: codecov/codecov-action@v4
         with:
           directory: ./coverage/
           fail_ci_if_error: true
