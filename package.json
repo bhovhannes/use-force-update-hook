@@ -35,7 +35,7 @@
   },
   "homepage": "https://github.com/bhovhannes/use-force-update-hook#readme",
   "devDependencies": {
-    "@evilmartians/lefthook": "2.1.10",
+    "@evilmartians/lefthook": "2.1.12",
     "@bhovhannes/shared-config": "0.0.1",
     "@commitlint/cli": "21.2.2",
     "@commitlint/config-conventional": "21.2.2",
